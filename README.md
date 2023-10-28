@@ -1,2 +1,2 @@
-# calculadora-gorjeta
-Brincando com Calculadora de Gorjeta
+# calculadora
+Calculadora de Comissao

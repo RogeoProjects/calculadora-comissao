@@ -4,50 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Gorjetas</title>
+    <title>Calculadora de Comissão</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="container">
         <div>
-          <h1 class="title">Calculadora de Gorjetas</h1>
+          <h1 class="title">Calculadora de Comissão</h1>
         </div>
         <div>
             <form class="tipsForm" id="tipsForm">
                 <label for="bill">
                     <p>
-                      Quanto ficou a conta?
+                      Qual o valor?
                     </p>
                 </label>
                 <p>
-                   R$: <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
+                    €: <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
                 </p>
                 <label for="serviceQuality">
                     <p>
-                       Voce foi bem atendido?
+                        Escolha a porcentagem:
                     </p>
                     <p>
                         <select name="serviceQuality" id="serviceQual" class="formSelect" required>
-                            <option disabled selected value="0">Escolha uma opcao</option>
-                            <option value="0.3">30% - Incrivel</option>
-                            <option value="0.2">20% - Bom</option>
-                            <option value="0.15">15% - Aceitavel</option>
-                            <option value="0.10">10% - Ruim</option>
-                            <option value="0.05">5% - Pessimo</option>
+                            <option disabled selected value="0">Escolha a porcentagem</option>
+                            <option value="0.3">30%</option>
+                            <option value="0.2">20%</option>
+                            <option value="0.15">15%</option>
+                            <option value="0.10">10%</option>
+                            <option value="0.05">5%</option>
                         </select>
                     </p>
                 </label>
                 <label for="people">
-                   <p>Quantas pessoas vao dividir a conta?</p>
+                   <p>Quantas pessoas vao dividir o dinheiro?</p>
                 </label>
                 <p>
                    <input type="number" placeholder="1" name="people" id="people" class="formImput" required> Pessoas
                 </p>
-                <button type="submit" class="formSubmit">Calculadora</button>
+                <button type="submit" class="formSubmit">Calcular</button>
             </form>
         </div>
         <div id="totalTip">
-            Gorjeta total:
+            Valor:
             R$:<span id="tip">0.00</span>
             <span id="each">Cada</span>
         </div>
